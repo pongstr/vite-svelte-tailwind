@@ -1,0 +1,22 @@
+{
+  "name": "Ohhai",
+  "short_name": "Ohhai",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "/?workspace=true",
+  "start_url": "/?workspace=true",
+  "theme_color": "#12141e",
+  "background_color": "#282a36",
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "display": "minimal-ui"
+}
