@@ -1,13 +1,15 @@
 {
   "name": "vite-svelte-ts-starter",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite --port 8080",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "prepare": "husky install",
+    "changelog": "npx changeset"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.6",
@@ -19,6 +21,7 @@
     "eslint": "^8.19.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-svelte3": "^4.0.0",
+    "husky": "^8.0.0",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
