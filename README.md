@@ -6,5 +6,5 @@ This template should help get you started developing with Svelte-TypeScript and 
 
 ```bash
 $ npx degit pongstr/vite-svelte-tailwind my-app && cd ./my-app
-$ yarn && yarn dev
+$ pnpm install && pnpm dev
 ```

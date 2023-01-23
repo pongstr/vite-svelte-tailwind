@@ -7,20 +7,20 @@
 
   const degit = `
 $ npx degit pongstr/vite-svelte-tailwind my-app && cd ./my-app
-$ yarn && yarn dev
+$ pnpm install && pnpm dev
 `.trim()
 </script>
 
 <main id="intro">
   <header>
     <div>
-      <a href="https://vitejs.dev" target="_blank">
+      <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
         <img src={viteLogo} class="logo vite" alt="Vite Logo" />
       </a>
-      <a href="https://svelte.dev" target="_blank">
+      <a href="https://svelte.dev" target="_blank" rel="noreferrer">
         <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
       </a>
-      <a href="https://tailwindcss.com" target="_blank">
+      <a href="https://tailwindcss.com" target="_blank" rel="noreferrer">
         <img src={tailwind} class="logo tailwind" alt="TailwindCSS Logo" />
       </a>
     </div>
