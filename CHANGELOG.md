@@ -1,5 +1,11 @@
 # vite-svelte-ts-starter
 
+## 0.1.0
+
+### Minor Changes
+
+- [`aeb345a`](https://github.com/pongstr/vite-svelte-tailwind/commit/aeb345a90634cd4039fe4f7574e31d005cb73a51) Thanks [@pongstr](https://github.com/pongstr)! - Updgrade Vite+Switch to PNPM
+
 ## 0.0.2
 
 ### Patch Changes
