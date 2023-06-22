@@ -1,5 +1,15 @@
 # vite-svelte-ts-starter
 
+## 0.2.0
+
+### Minor Changes
+
+- [#9](https://github.com/pongstr/vite-svelte-tailwind/pull/9) [`f7acd79`](https://github.com/pongstr/vite-svelte-tailwind/commit/f7acd797e434de915c3d838f0710b51bd707413c) Thanks [@pongstr](https://github.com/pongstr)! - Upgrade to Svelte 4
+
+### Patch Changes
+
+- [#10](https://github.com/pongstr/vite-svelte-tailwind/pull/10) [`5487b42`](https://github.com/pongstr/vite-svelte-tailwind/commit/5487b42bfb6769d13f8db78d44f84347bcd74cc8) Thanks [@pongstr](https://github.com/pongstr)! - chore(actions): run actions on PR, add pnpm version
+
 ## 0.1.0
 
 ### Minor Changes
