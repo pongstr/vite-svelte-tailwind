@@ -1,5 +1,11 @@
 # vite-svelte-ts-starter
 
+## 0.2.1
+
+### Patch Changes
+
+- [`d694610`](https://github.com/pongstr/vite-svelte-tailwind/commit/d694610403d0e737b89f4d31d64fd2b74475eb2e) Thanks [@pongstr](https://github.com/pongstr)! - Dependency updates
+
 ## 0.2.0
 
 ### Minor Changes
