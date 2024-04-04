@@ -1,5 +1,11 @@
 # @pongstr/svelte4-starter
 
+## 0.2.2
+
+### Patch Changes
+
+- [`91d772291fc665daa7dcb67c370e109c85e6c10e`](https://github.com/pongstr/vite-svelte-tailwind/commit/91d772291fc665daa7dcb67c370e109c85e6c10e) Thanks [@pongstr](https://github.com/pongstr)! - chore: rm non-existent commands from actions
+
 ## 0.2.1
 
 ### Patch Changes
