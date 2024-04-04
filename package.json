@@ -1,5 +1,5 @@
 {
-  "name": "vite-svelte-ts-starter",
+  "name": "@pongstr/svelte4-starter",
   "private": false,
   "version": "0.2.1",
   "type": "module",
