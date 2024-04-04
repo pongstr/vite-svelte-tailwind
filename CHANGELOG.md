@@ -1,4 +1,4 @@
-# vite-svelte-ts-starter
+# @pongstr/svelte4-starter
 
 ## 0.2.1
 

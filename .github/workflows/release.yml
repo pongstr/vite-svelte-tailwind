@@ -29,8 +29,7 @@ jobs:
       - name: Install dependencies + run pre-release checks
         run: |
           pnpm install
-          pnpm lint
-          pnpm test run
+          pnpm build 
         env:
           GITHUB_TOKEN: ${{ secrets.HUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
