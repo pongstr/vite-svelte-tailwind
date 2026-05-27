@@ -25,7 +25,7 @@ importers:
         version: 5.62.0(eslint@9.26.0(hono@4.11.7)(jiti@1.21.0))(typescript@4.9.5)
       autoprefixer:
         specifier: ^10.4.19
-        version: 10.4.19(postcss@8.4.38)
+        version: 10.4.19(postcss@8.5.10)
       eslint:
         specifier: ^9.26.0
         version: 9.26.0(hono@4.11.7)(jiti@1.21.0)
@@ -39,11 +39,11 @@ importers:
         specifier: ^8.0.3
         version: 8.0.3
       postcss:
-        specifier: ^8.4.38
-        version: 8.4.38
+        specifier: ^8.5.10
+        version: 8.5.10
       postcss-nested:
         specifier: ^6.0.1
-        version: 6.0.1(postcss@8.4.38)
+        version: 6.0.1(postcss@8.5.10)
       prettier:
         specifier: ^2.8.8
         version: 2.8.8
@@ -55,10 +55,10 @@ importers:
         version: 5.53.5
       svelte-check:
         specifier: ^3.6.9
-        version: 3.6.9(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(svelte@5.53.5)
+        version: 3.6.9(postcss-load-config@4.0.2(postcss@8.5.10))(postcss@8.5.10)(svelte@5.53.5)
       svelte-preprocess:
         specifier: ^5.1.3
-        version: 5.1.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(svelte@5.53.5)(typescript@4.9.5)
+        version: 5.1.3(postcss-load-config@4.0.2(postcss@8.5.10))(postcss@8.5.10)(svelte@5.53.5)(typescript@4.9.5)
       tailwindcss:
         specifier: ^3.4.3
         version: 3.4.3
@@ -1834,11 +1834,6 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@3.3.7:
-    resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
@@ -2087,12 +2082,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.4.38:
-    resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
-    engines: {node: ^10 || ^12 || >=14}
-
-  postcss@8.5.9:
-    resolution: {integrity: sha512-7a70Nsot+EMX9fFU3064K/kdHWZqGVY+BADLyXc8Dfv+mTLLVl6JzJpPaCZ2kQL9gIJvKXSLMHhqdRRjwQeFtw==}
+  postcss@8.5.10:
+    resolution: {integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   preferred-pm@3.1.3:
@@ -2322,10 +2313,6 @@ packages:
   sorcery@0.11.0:
     resolution: {integrity: sha512-J69LQ22xrQB1cIFJhPfgtLuI6BpWRiWu1Y3vSsIwK/eAScqJxd/+CJlUuHQRdX2C9NGFamq+KqNywGgaThwfHw==}
     hasBin: true
-
-  source-map-js@1.2.0:
-    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
-    engines: {node: '>=0.10.0'}
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -3463,14 +3450,14 @@ snapshots:
 
   arrify@1.0.1: {}
 
-  autoprefixer@10.4.19(postcss@8.4.38):
+  autoprefixer@10.4.19(postcss@8.5.10):
     dependencies:
       browserslist: 4.23.0
       caniuse-lite: 1.0.30001605
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.38
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
 
   available-typed-arrays@1.0.7:
@@ -3944,9 +3931,9 @@ snapshots:
       eslint-compat-utils: 0.1.2(eslint@9.26.0(hono@4.11.7)(jiti@1.21.0))
       esutils: 2.0.3
       known-css-properties: 0.29.0
-      postcss: 8.4.38
-      postcss-load-config: 3.1.4(postcss@8.4.38)
-      postcss-safe-parser: 6.0.0(postcss@8.4.38)
+      postcss: 8.5.10
+      postcss-load-config: 3.1.4(postcss@8.5.10)
+      postcss-safe-parser: 6.0.0(postcss@8.5.10)
       postcss-selector-parser: 6.0.16
       semver: 7.6.0
       svelte-eslint-parser: 0.33.1(svelte@5.53.5)
@@ -4646,8 +4633,6 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  nanoid@3.3.7: {}
-
   natural-compare@1.4.0: {}
 
   negotiator@1.0.0: {}
@@ -4802,44 +4787,44 @@ snapshots:
 
   possible-typed-array-names@1.0.0: {}
 
-  postcss-import@15.1.0(postcss@8.4.38):
+  postcss-import@15.1.0(postcss@8.5.10):
     dependencies:
-      postcss: 8.4.38
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
 
-  postcss-js@4.0.1(postcss@8.4.38):
+  postcss-js@4.0.1(postcss@8.5.10):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.38
+      postcss: 8.5.10
 
-  postcss-load-config@3.1.4(postcss@8.4.38):
+  postcss-load-config@3.1.4(postcss@8.5.10):
     dependencies:
       lilconfig: 2.1.0
       yaml: 1.10.2
     optionalDependencies:
-      postcss: 8.4.38
+      postcss: 8.5.10
 
-  postcss-load-config@4.0.2(postcss@8.4.38):
+  postcss-load-config@4.0.2(postcss@8.5.10):
     dependencies:
       lilconfig: 3.1.1
       yaml: 2.4.1
     optionalDependencies:
-      postcss: 8.4.38
+      postcss: 8.5.10
 
-  postcss-nested@6.0.1(postcss@8.4.38):
+  postcss-nested@6.0.1(postcss@8.5.10):
     dependencies:
-      postcss: 8.4.38
+      postcss: 8.5.10
       postcss-selector-parser: 6.0.16
 
-  postcss-safe-parser@6.0.0(postcss@8.4.38):
+  postcss-safe-parser@6.0.0(postcss@8.5.10):
     dependencies:
-      postcss: 8.4.38
+      postcss: 8.5.10
 
-  postcss-scss@4.0.9(postcss@8.4.38):
+  postcss-scss@4.0.9(postcss@8.5.10):
     dependencies:
-      postcss: 8.4.38
+      postcss: 8.5.10
 
   postcss-selector-parser@6.0.16:
     dependencies:
@@ -4848,13 +4833,7 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.4.38:
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.2.0
-
-  postcss@8.5.9:
+  postcss@8.5.10:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
@@ -5152,8 +5131,6 @@ snapshots:
       minimist: 1.2.8
       sander: 0.5.1
 
-  source-map-js@1.2.0: {}
-
   source-map-js@1.2.1: {}
 
   spawndamnit@2.0.0:
@@ -5250,7 +5227,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@3.6.9(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(svelte@5.53.5):
+  svelte-check@3.6.9(postcss-load-config@4.0.2(postcss@8.5.10))(postcss@8.5.10)(svelte@5.53.5):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 3.6.0
@@ -5259,7 +5236,7 @@ snapshots:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 5.53.5
-      svelte-preprocess: 5.1.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(svelte@5.53.5)(typescript@5.4.3)
+      svelte-preprocess: 5.1.3(postcss-load-config@4.0.2(postcss@8.5.10))(postcss@8.5.10)(svelte@5.53.5)(typescript@5.4.3)
       typescript: 5.4.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -5277,8 +5254,8 @@ snapshots:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      postcss: 8.4.38
-      postcss-scss: 4.0.9(postcss@8.4.38)
+      postcss: 8.5.10
+      postcss-scss: 4.0.9(postcss@8.5.10)
     optionalDependencies:
       svelte: 5.53.5
 
@@ -5286,7 +5263,7 @@ snapshots:
     dependencies:
       svelte: 5.53.5
 
-  svelte-preprocess@5.1.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(svelte@5.53.5)(typescript@4.9.5):
+  svelte-preprocess@5.1.3(postcss-load-config@4.0.2(postcss@8.5.10))(postcss@8.5.10)(svelte@5.53.5)(typescript@4.9.5):
     dependencies:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
@@ -5295,11 +5272,11 @@ snapshots:
       strip-indent: 3.0.0
       svelte: 5.53.5
     optionalDependencies:
-      postcss: 8.4.38
-      postcss-load-config: 4.0.2(postcss@8.4.38)
+      postcss: 8.5.10
+      postcss-load-config: 4.0.2(postcss@8.5.10)
       typescript: 4.9.5
 
-  svelte-preprocess@5.1.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(svelte@5.53.5)(typescript@5.4.3):
+  svelte-preprocess@5.1.3(postcss-load-config@4.0.2(postcss@8.5.10))(postcss@8.5.10)(svelte@5.53.5)(typescript@5.4.3):
     dependencies:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
@@ -5308,8 +5285,8 @@ snapshots:
       strip-indent: 3.0.0
       svelte: 5.53.5
     optionalDependencies:
-      postcss: 8.4.38
-      postcss-load-config: 4.0.2(postcss@8.4.38)
+      postcss: 8.5.10
+      postcss-load-config: 4.0.2(postcss@8.5.10)
       typescript: 5.4.3
 
   svelte@5.53.5:
@@ -5347,11 +5324,11 @@ snapshots:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.4.38
-      postcss-import: 15.1.0(postcss@8.4.38)
-      postcss-js: 4.0.1(postcss@8.4.38)
-      postcss-load-config: 4.0.2(postcss@8.4.38)
-      postcss-nested: 6.0.1(postcss@8.4.38)
+      postcss: 8.5.10
+      postcss-import: 15.1.0(postcss@8.5.10)
+      postcss-js: 4.0.1(postcss@8.5.10)
+      postcss-load-config: 4.0.2(postcss@8.5.10)
+      postcss-nested: 6.0.1(postcss@8.5.10)
       postcss-selector-parser: 6.0.16
       resolve: 1.22.8
       sucrase: 3.35.0
@@ -5482,7 +5459,7 @@ snapshots:
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
-      picocolors: 1.0.0
+      picocolors: 1.1.1
 
   uri-js@4.4.1:
     dependencies:
@@ -5502,7 +5479,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.9
+      postcss: 8.5.10
       rollup: 4.60.1
       tinyglobby: 0.2.16
     optionalDependencies:
